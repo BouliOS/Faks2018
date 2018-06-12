@@ -10,6 +10,9 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+
+Route::resource('dvorana', 'DvoranaController');
+
 Route::resource('zupanija', 'ZupanijaController');
 Route::resource('mjesto', 'MjestoController');
 //Route::get('/zupanija/brojzupanija','ZupanijaController@brojzupanija');

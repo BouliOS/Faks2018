@@ -116,6 +116,14 @@ return [
             'can'  => 'manage-blog',
         ],
         [
+            'text'        => 'Dvorana',
+            'url'         => 'dvorana',
+            'icon'        => 'book',
+          //  'label'       => 21,
+          'label'       => 5,
+            'label_color' => 'success',
+        ],
+        [
             'text'        => 'Županije',
             'url'         => 'zupanija',
             'icon'        => 'angellist',
